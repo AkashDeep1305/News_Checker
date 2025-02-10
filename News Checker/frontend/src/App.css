@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: #b4adad;
+  margin-bottom: 20px;
+}
+
+button{
+  background-color: #e9f2a2;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;  
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+textarea {
+  background-color: #C5D9D0;
+}
+
+h3 {
+  color: #B3BF54;
+}
