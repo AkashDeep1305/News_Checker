@@ -49,7 +49,7 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 model.fit(X_train, y_train, epochs=5, batch_size=32, validation_data=(X_test, y_test))
 
 # Save Model & Vectorizer
-model.save("backend/fake_news_model.h5")
+model.save("backend/news_model.h5")
 pickle.dump(vectorizer, open("backend/vectorizer.pkl", "wb"))
 
 print("Model and Vectorizer saved successfully!")
